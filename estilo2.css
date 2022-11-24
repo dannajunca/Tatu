@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+body{width: 100%; height: 600px;font-family: analogy;  margin: 0px;padding: 0px;}
+.contenido{width: 100%; height: 400px; ;position: relative; top: 40px;padding-top: 10px;}
+
+.sesion{width: 55%; height: 500px; background: #F95C4B; position: absolute; left: 7%;border-radius: 50px; margin: 20px;}
+
+h1{position: absolute; left: 15%; font-size: 50px;font-family: KOLIKO; color: #FFF;}
+
+.name{position: absolute; left: 43%; top: 130px; background:#FFF; height: 35px;color: #000000; border: none; border-radius: 20px;   }
+.apell{position: absolute; left: 43%; top: 190px; background:#fff; height: 35px;color: #000000; border: none; border-radius: 20px;  }
+.fech{position: absolute; left: 51%; top: 250px; background:#fff; height: 35px;color: #000000; border: none;  border-radius: 20px; }
+.usu{position: absolute; left: 43%; top: 310px; background:#fff; height: 35px;color: #000000; border: none; border-radius: 20px;  }
+.con{position: absolute; left: 43%; top: 370px;background:#fff; height: 35px; color: #000000; border: none;border-radius: 20px;  }
+
+.tx{color: #fff; font-family: koliko; font-size: 25px;
+position: absolute; top: 130px; left: 25%;}
+.tx2{color: #fff; font-family: koliko; font-size: 25px;
+position: absolute; top: 190px; left: 25%;}
+.tx3{color: #fff; font-family: koliko; font-size: 25px;
+position: absolute; top: 250px; left: 25%;}
+.tx4{color: #fff; font-family: koliko; font-size: 25px;
+position: absolute; top: 310px; left: 25%;}
+.tx5{color: #fff; font-family: koliko; font-size: 25px;
+position: absolute; top: 370px; left: 25%;}
+
+
+.cont{font-size: 22px; text-align: center;font-family: KOLIKO; border-radius: 20px; background: #FCB910; border: none;position: absolute; width: 30%; height: 40px;left: 45%; top: 435px;}
+
+
+a{text-decoration: none; color: #000;}
+
+h2{font-size: 16px; font-family: nexa; position: absolute; top: 320px; left: 10%;}
+
+.arm{width: 50%; position: absolute; top: 290px; right: 5%;}

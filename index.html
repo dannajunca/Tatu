@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="estilo.css">
+<meta name="viewport" content="width=device-width, initial-scales=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Tatú</title>
+</head>
+
+<body>
+<div class="cuerpo">
+	<img alt="curva" class="esqam" src="recursos/Esquina amarilla.svg">
+	
+	<div class="menusup" id="mibarrasup">
+	
+	<a href="index.html" class="activo">Inicio</a>
+	<a href="sobretatu.html">Sobre Tatú</a>
+	<a href="#">Ajustes</a>
+	<a href="javascript:void(0);" class="icono" onClick="mifuncion()"><i class="fa fa-bars" style="color: #000;"></i></a>
+	</div>
+<div class="content">
+	<img alt="fondo" class="curvam" src="recursos/Curva amarilla (2).svg">
+	<div class="rect"></div>
+	
+		<img class="personaje" src="recursos/Recurso 18@4x.png" alt="armadillo">
+		<h1 class="bienv">Bienvenidos a</h1>
+		<h1 class="nombre">TATÚ</h1>
+		
+		<button class="inicios"><a href="sesion.html">Inicio Sesión</a></button>
+		<a class="regis" href="registrarse.html">Resgistrarse</a>
+		<img class="textura" src="recursos/Recurso 23@4x.png" alt="">
+		</div>
+</div>
+
+	<script>
+	function mifuncion() {
+var x = document.getElementById("mibarrasup");
+if (x.className === "menusup") {
+x.className += " responsive";
+} else {
+x.className = "menusup";
+}
+}
+	</script>
+</body>
+</html>

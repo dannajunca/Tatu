@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+body{font-family: koliko;  margin: 0px;padding: 0px;background: #FFF;}
+.esqam{position:absolute; top:0px; left: 0px; width: 45%;margin: 0px; padding: 0px; z-index: -1; float: none}
+.cuerpo{width: 100%}
+
+.barranavizq{position: relative; z-index: 0}
+.barranavizq a{float: left ;text-align: center; padding: 8px 20px; text-decoration: none; color: white; font-size: 25px;margin-left: 15px; margin-top: 8px}
+
+
+.barranavder{position: absolute;overflow: hidden; z-index: 0; right: 10px;}
+.barranavder a{float:right; text-align: center; padding: 8px 20px; text-decoration: none; ; font-size: 25px; margin-top: 8px}
+
+
+
+.subna{ float: left; overflow: hidden; z-index: 1}
+.subnavbnt{ border: none; outline: none; color: #000; padding: 0px 16px; background: inherit; text-align: center;float:right; text-decoration: none;  font-size: 25px; font-family: koliko;}
+
+
+.barranavder a:hover:not(.activo), .subna:hover .subnavbnt{background:#B1AEAE;border-radius: 25px; }
+.inform {display: none; position: relative;left: 0px; background: #B1AEAE;width: 250px;align-items: center;}
+.inform a{font-size: 20px;text-align: center; align-content:center;border-radius: 25px;}
+.inform a:hover{background:#5E5E5E;border-radius: 25px;}
+.subna:hover .inform{display: block;}
+
+.curvam{position: absolute; top:220px; left: 0px; width: 100%; z-index: 0; float: none;}
+
+.contenido{width: 100%;height: 800px; align-content: center; justify-content: center; float: none;position: relative;top: 30px;}
+.personaje{height: 420px; shadow: 7px 5px 3px #CCC; justify-content:center;position: absolute; left: 5%; top: 300px;}
+
+.tatuland{color: #000;; position: absolute; left: 40%; top: 40px;font-size: 95px;}
+
+.img1{width: 16%; position: absolute; z-index: 1; top: 360px; left: 30%;}
+.img2{width: 16%; position: absolute; z-index: 1; top: 250px; left: 50%;}
+.img3{width: 25%; position: absolute; z-index: 1; top: 540px; right: 5%;}
+
+.uno{width: 16%;background: white; text-align: center;position: absolute; top: 610px; left: 30%;font-size: 15px; font-family: arial;}
+h2{font-size: 18px;}
+.dos{width: 16%;background: white; text-align: center;position: absolute; top: 500px; left: 50%;font-size: 15px; font-family: arial;}
+.tres{width: 25%;background: white; text-align: center;position: absolute; top: 380px; right: 5%;font-size: 15px; font-family: arial;}
+
+.cuatro{background:#CDCDCD; width: 20%; height: 90px; font-size: 90px; color: #686868;position: absolute; right: 8%; top: 260px;text-align: center; padding-bottom: 12px; overflow: hidden;z-index: 1}
+.cuatro:hover {background:#B1AEAE;border-radius: 25px; }
+.pers1{width: 20%; float: left; position: relative; top: 260px; margin-right: 140px; box-shadow: 9px 8px 4px #888;}
+.pers2{width: 20%; float: left;  position: relative; top: 260px; box-shadow: 9px 8px 4px #888;}
+
+
+.barranavizq a:hover:not(.activo){background:#B3B2B2; border-radius: 25px;}
+.barranavder a:hover:not(.activo){background:#B3B2B2; border-radius: 25px; color: #000;}
+.activo{color: white;background: #000000; border-radius: 25px;}
+
+ 
+
+
+
+
+

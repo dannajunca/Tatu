@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+.contenido{width: 100%; height: 400px; ;position: relative; top: 40px;padding-top: 10px;}
+
+.sesion{width: 55%; height: 450px; background: #FCB910; position: absolute; left: 7%;border-radius: 50px; margin: 20px;}
+
+h1{position: absolute; left: 25%; font-size: 50px;font-family: KOLIKO; color: #FFF;}
+
+.uno{position: absolute; left: 27%; top: 160px; background:#FFF; height: 40px;color: #000000; border: none; border-radius: 30px; width: 200px;  }
+
+.dos{position: absolute; left: 65%; top: 170px; background:#FFF; height: 40px;color: #000000; border: none;  border-radius: 30px; width: 200px; }
+
+.tres{position: absolute; left: 41%; top: 220px; background:#FFF; height: 40px;color: #000000; border: none;  border-radius: 30px; width: 200px; }
+
+.cuatro{position: absolute; left: 27%; top: 275px; background:#FFF; height: 40px;color: #000000; border: none;  border-radius: 30px; width: 200px; }
+
+.cinco{position: absolute; left: 65%; top: 285px;background:#FFF; height: 40px; color: #000000; border: none; border-radius: 40px; width: 200px; }
+
+.tx{color: #000; font-family: nexa; font-size: 25px;
+position: absolute; top: 100px; left: 30%;}
+	
+.cont{font-size: 22px; text-align: center;font-family: KOLIKO; border-radius: 20px; background: #00BCBC; border: none;position: absolute; width: 30%; height: 40px;left: 43%; top: 350px;}
+
+
+a{text-decoration: none; color: #000;}
+
+h2{font-size: 16px; font-family: nexa; position: absolute; top: 380px; left: 51%;}
+
+.arm{width: 22%; position: absolute; top: 100px; right: 17%;}
+.mata{width: 20%; position: absolute; top: 30px; left: 15px;}

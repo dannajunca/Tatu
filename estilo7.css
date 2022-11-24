@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+body{font-family: koliko;  margin: 0px;padding: 0px;background: #FFF;}
+.esqmor{position:absolute; top:0px; right: 0px; width: 45%;margin: 0px; padding: 0px; z-index: -1; float: none}
+.cuerpo{width: 100%; height: 1200px;}
+
+.barranavizq{position: relative; z-index: 0}
+.barranavizq a{float: left ;text-align: center; padding: 8px 20px; text-decoration: none; color: #000; font-size: 25px;margin-left: 15px; margin-top: 8px}
+
+
+.barranavder{position: absolute;overflow: hidden; z-index: 0; right: 10px;}
+.barranavder a{float:right; text-align: center; padding: 8px 20px; text-decoration: none; color: #fff; font-size: 25px; margin-top: 8px}
+
+
+
+.subna{ float: left; overflow: hidden; z-index: 1}
+.subnavbnt{ border: none; outline: none; color: #fff; padding: 0px 16px; background: inherit; text-align: center;float:right; text-decoration: none;  font-size: 25px; font-family: koliko;}
+
+
+.barranavder a:hover:not(.activo), .subna:hover .subnavbnt{background:#B1AEAE;border-radius: 25px; }
+.inform {display: none; position: relative;left: 0px; background: #B1AEAE;width: 250px;align-items: center;}
+.inform a{font-size: 20px;text-align: center; align-content:center;border-radius: 25px; color: #000;}
+.inform a:hover{background:#5E5E5E;border-radius: 25px;}
+.subna:hover .inform{display: block;}
+
+.personaje{width: 13%; shadow: 7px 5px 3px #CCC; justify-content:center;position: absolute; left: 42%; top: 50px}
+.tatuland{color: #000;; position: absolute; left: 35%; top: 220px;font-size: 95px;font-family: koliko;}
+
+.carousel {top: 315px;}
+.carousel-inner{width: 80%; height: 450px; }
+.carousel-item{width: 25%;left: 50%; box-shadow: 9px 5px 6px #888;}
+.carousel-control-prev{width: 50px; height: 50px; top: 250px; left: 50px;}
+.carousel-control-next{width: 50px; height: 50px; top: 250px; right: 50px;}
+
+.fondo{transform: rotate(90deg); width: 20%; position: absolute;top: 220px; left: 0px; height: 130%; opacity: 60%;}
+.fondo1{transform: rotate(90deg); width: 20%; position: absolute;top: 250px;left: 62%; height: 120%; opacity: 60%;}
+
+.parrafo{width: 25%; position: absolute;  top: 900px; right: 8%; font-family: arial; text-align: justify }
+
+.huellas{position: absolute; width: 30%; top: 850px;left: 15%}
+
+
+
+.barranavizq a:hover:not(#activo){background:#B3B2B2; border-radius: 25px;}
+.barranavder a:hover:not(#activo){background:#B3B2B2; border-radius: 25px; }
+#activo{background: #000000; color: white;border-radius: 25px;}
