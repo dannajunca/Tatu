@@ -4,6 +4,12 @@ body{font-family: koliko;  margin: 0px;padding: 0px;background: #FFF;}
 
 
 .esqam{position:absolute; top:0px; left: 0px; width: 45%;margin: 0px; padding: 0px; z-index: -1;  float: none}
+
+.menusup{position: absolute;z-index: 0; overflow: hidden;right: 10px;}
+.menusup a {float: left ;text-align: center; padding: 8px 20px; text-decoration: none; color: white; font-size: 25px;margin-left: 15px; margin-top: 8px}
+.menusup a:hover:not(.activo){background:#B3B2B2; border-radius: 25px;}
+.menusup .icono {display: none;}
+
 .barranavizq{position: relative; z-index: 0}
 .barranavizq a{float: left ;text-align: center; padding: 8px 20px; text-decoration: none; color: white; font-size: 25px;margin-left: 15px; margin-top: 8px}
 
@@ -47,3 +53,61 @@ body{font-family: koliko;  margin: 0px;padding: 0px;background: #FFF;}
 .barranavizq a:hover:not(.activo){background:#B3B2B2; border-radius: 25px;}
 .barranavder a:hover:not(.activo){background:#B3B2B2; border-radius: 25px; }
 .activo{background: #000000; color: white;border-radius: 25px;}
+
+@media screen and (min-width:900px){
+	.menusup{display: none;}
+}
+@media only screen and (max-width:900px){
+	.barranavder{display: none;}
+	.barranavizq{display: none;}
+	
+.menusup a, .subnavbnt:not(:first-child){
+		display: none;
+	}
+	.menusup a.icono {float: right; display: block;}
+
+	.menusup.responsive {position: relative;z-index: 1;}
+	.menusup.responsive .icono {position: absolute;right: 10px; top: 10px;}
+	.menusup.responsive a, .subnavbnt{float: none; display: block; text-align: left;background:#7C7C7C; color: #000;border-radius: 20px;z-index: 1}
+	.barranavder{width: 90%;}
+	.subnavbnt{float: none; display: block; text-align: left;background:#7C7C7C; color: #000;border-radius: 20px;z-index: 1; }
+	.subna{width: 100%}
+	.inform{width: 50%;background: none;}
+	.curv{top: 610px;}
+	.personaje{height: 240px;left: 35%; position: absolute; float: none;}
+	.curvam{top: 130px}
+	.exp{font-size: 9vw; right: 1%;top: 300px;}
+	.nombre{font-size: 12vw; top: 380px; right: 5%}
+	.tatu{font-size: 12vw; right: 20%;top: 600px;}
+	.parte1{width: 30%;font-size: 1.7vw;top: 790px;left: 5%;}
+	.parte2{width: 28%; font-size: 1.7vw;top: 790px;left: 38%;}
+	.armad{top: 770px}
+	
+}
+@media only screen and (max-width:600px){
+	.barranavder{display: none;}
+	.barranavizq{display: none;}
+	
+.menusup a, .subnavbnt:not(:first-child){
+		display: none;
+	}
+	.menusup a.icono {float: right; display: block;}
+
+	.menusup.responsive {position: relative;z-index: 1;}
+	.menusup.responsive .icono {position: absolute;right: 10px; top: 10px;}
+	.menusup.responsive a, .subnavbnt{float: none; display: block; text-align: left;background:#7C7C7C; color: #000;border-radius: 20px;z-index: 1}
+	.barranavder{width: 90%;}
+	.subnavbnt{float: none; display: block; text-align: left;background:#7C7C7C; color: #000;border-radius: 20px;z-index: 1; }
+	.subna{width: 100%}
+	.inform{width: 50%;background: none;}
+	.curv{top: 460px;}
+	.personaje{height: 200px;left: 35%; position: absolute; float: none;}
+	.curvam{top: 180px}
+	.exp{font-size: 9vw; right: 1%;top: 260px;}
+	.nombre{font-size: 12vw; top: 310px; right: 5%}
+	.tatu{font-size: 12vw; right: 20%;top: 430px;}
+	.parte1{width: 30%; font-size: 2vw;top: 535px;left: 5%;}
+	.parte2{width: 28%; font-size: 2vw;top: 535px;left: 38%;}
+	.armad{top: 570px}
+
+}

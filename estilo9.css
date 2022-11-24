@@ -2,6 +2,10 @@
 /* CSS Document */
 body{font-family: koliko;  margin: 0px;padding: 0px;background: #FFF;}
 .esqam{position:absolute; top:0px; left: 0px; width: 45%;margin: 0px; padding: 0px; z-index: -1; float: none}
+.menusup{position: absolute;z-index: 0; overflow: hidden;right: 10px;}
+.menusup a {float: left ;text-align: center; padding: 8px 20px; text-decoration: none; color: white; font-size: 25px;margin-left: 15px; margin-top: 8px}
+.menusup a:hover:not(.activo){background:#B3B2B2; border-radius: 25px;}
+.menusup .icono {display: none;}
 .cuerpo{width: 100%}
 
 .barranavizq{position: relative; z-index: 0}
@@ -42,14 +46,68 @@ h2{font-size: 18px;}
 .cuatro{background:#CDCDCD; width: 20%; height: 90px; font-size: 90px; color: #686868;position: absolute; right: 8%; top: 260px;text-align: center; padding-bottom: 12px; overflow: hidden;z-index: 1}
 .cuatro:hover {background:#B1AEAE;border-radius: 25px; }
 
-
+.foro{position: relative;}
 
 
 .barranavizq a:hover:not(.activo){background:#B3B2B2; border-radius: 25px;}
 .barranavder a:hover:not(.activo){background:#B3B2B2; border-radius: 25px; }
 .activo{background: #000000; color: white;border-radius: 25px;}
 
- 
+@media only screen and (min-width:900px){
+	.menusup{display: none;}
+}
+
+@media only screen and (max-width:900px){
+	.barranavder{display: none;}
+	.barranavizq{display: none;}
+	.menusup a, .subnavbnt:not(:first-child){
+		display: none;
+	}
+	.menusup a.icono {float: right; display: block;}
+
+	.menusup.responsive {position: relative;z-index: 1;}
+	.menusup.responsive .icono {position: absolute;right: 10px; top: 10px;}
+	.menusup.responsive a, .subnavbnt{float: none; display: block; text-align: left;background:#7C7C7C; color: #000;border-radius: 20px;z-index: 1}
+		.subna{width: 100%}
+	.inform{width: 50%;background: none;}
+	.personaje{display: none;}
+	.curvam{display: none;}
+	.tatuland{font-size: 12vw;left: 30%;}
+	.img1{width: 30%;left: 7%;}
+	.img2{width: 20%;left: 77%;}
+	.img3{width: 35%; left: 40% ;top:600px;}
+	.uno{background: #FCB910; width: 25%;left: 9%;top: 640px;}
+	.dos{background: #FCB910; width: 35%;left: 40%; top: 400px;}
+	.tres{background: #FCB910; width: 15%;top: 450px}
+	.cuatro{left: 10%; width: 45%; top: 230px}
+}
+
+ @media only screen and (max-width:600px){
+	.barranavder{display: none;}
+	.barranavizq{display: none;}
+	
+.menusup a, .subnavbnt:not(:first-child){
+		display: none;
+	}
+	.menusup a.icono {float: right; display: block;}
+
+	.menusup.responsive {position: relative;z-index: 1;}
+	.menusup.responsive .icono {position: absolute;right: 10px; top: 10px;}
+	.menusup.responsive a, .subnavbnt{float: none; display: block; text-align: left;background:#7C7C7C; color: #000;border-radius: 20px;z-index: 1}
+	.barranavder{width: 90%;}
+	.subnavbnt{float: none; display: block; text-align: left;background:#7C7C7C; color: #000;border-radius: 20px;z-index: 1; }
+	.subna{width: 100%}
+	.inform{width: 50%;background: none;}
+	 .foro{position: absolute; top: 20px;}
+	 .img1{z-index: 1; width: 40%;left: 7%;}
+	.img2{width: 40%;left: 53%;}
+	.img3{width: 60%; left: 20% ;top:930px;}
+	.uno{background: #FCB910; width: 35%;left: 10%;top: 570px;}
+	.dos{display: none}
+	.tres{background: #FCB910; width: 35%;top: 460px; left: 55%}
+	.cuatro{left: 10%; width: 35%; top: 190px}
+}
+
 
 
 

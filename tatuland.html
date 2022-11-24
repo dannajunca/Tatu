@@ -33,10 +33,31 @@
 	</div>
 	</div>
 	
+	<div class="menusup" id="mibarrasup">
+		<a href="index.html">Inicio</a>
+	<a href="sobretatu.html" class="activo">Sobre Tatú</a>
+	<a href="tatuland.html">Tatuland</a>
+		<a href="#">Ajustes</a>
+	<a href="avatar.html">Avatar</a>
+		
+	<div class="subna">
+		<a class="subnavbnt" href="proceso.html"><button class="subnavbnt">Mi proceso<i class="fa fa-caret-down"></i></button></a>
+	<div class="inform">
+		<a href="Autococimiento.html">Autoconocimiento</a>
+		<a href="redes.html">Redes de Apoyo</a>
+		<a href="presiones.html">Influencias o Presiones</a>
+		</div>
+	</div>
+		
+	<a href="javascript:void(0);" class="icono" onClick="mifuncion()"><i class="fa fa-bars" style="color: #000;"></i></a>
+	</div>
+	
+	
 	<img alt="fondo" class="curvam" src="recursos/Curva amarilla (2).svg">
 	<div class="contenido">
 	<img class="personaje" src="recursos/Recurso 18@4x.png" alt="armadillo">
 		<h1 class="tatuland">Tatuland</h1>
+		
 	<img alt="" class="img1" src="recursos/a26c5bcf56dd80a8d25d2aa37653d813.jpg">
 	<img alt="" class="img2" src="recursos/joven1.png">
 	<img alt="" class="img3" src="recursos/img3.jpg">
@@ -62,5 +83,16 @@
 	
 	</div>
 </div>
+	
+	<script>
+	function mifuncion() {
+var x = document.getElementById("mibarrasup");
+if (x.className === "menusup") {
+x.className += " responsive";
+} else {
+x.className = "menusup";
+}
+}
+	</script>
 </body>
 </html>

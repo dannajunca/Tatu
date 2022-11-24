@@ -20,6 +20,22 @@ a{text-decoration: none; color: #000;}
 h2{font-size: 16px; font-family: nexa; position: absolute; top: 320px; left: 10%;}
 
 .arm{width: 50%; position: absolute; top: 230px; right: 5%;}
+@media only screen and (max-width:900px){
+	.contenido{width: 100%;}
+	.sesion{font-size: 9vw;width: 70%; top: 180px;}
+	.tx{left: 17%}
+	.tx2{left: 10%}
+	.arm{position: absolute; top: 7px; width: 50%; left: 10%}
+	.olvcon{position: absolute; top: 160px;width: 60%;}
+	
+}
+
 @media only screen and (max-width:600px){
+	.contenido{width: 100%;}
+	.sesion{font-size: 9vw;width: 90%; top: 180px;}
+	.tx{left: 17%}
+	.tx2{left: 10%}
+	.arm{position: absolute; top:10px; width: 80%}
+	.olvcon{position: absolute; top: 160px;width: 60%;}
 	
 }

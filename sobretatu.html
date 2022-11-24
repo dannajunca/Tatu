@@ -12,6 +12,7 @@
 <div class="cuerpo">
 	<img alt="curva" class="esqam" src="recursos/Esquina Roja.svg">
 	
+	
 	<div class="barranavizq">
 	
 	<a href="index.html">Inicio</a>
@@ -19,8 +20,7 @@
 	<a href="tatuland.html">Tatuland</a>
 	</div>
 	<div class="barranavder">
-	
-	<a href="#">Ajustes</a>
+		<a href="#">Ajustes</a>
 	<a href="avatar.html">Avatar</a>
 		
 	<div class="subna">
@@ -32,10 +32,29 @@
 		</div>
 	</div>
 	</div>
-
-
+	
+	<div class="menusup" id="mibarrasup">
+		<a href="index.html">Inicio</a>
+	<a href="sobretatu.html" class="activo">Sobre Tatú</a>
+	<a href="tatuland.html">Tatuland</a>
+		<a href="#">Ajustes</a>
+	<a href="avatar.html">Avatar</a>
+		
+	<div class="subna">
+		<a class="subnavbnt" href="proceso.html"><button class="subnavbnt">Mi proceso<i class="fa fa-caret-down"></i></button></a>
+	<div class="inform">
+		<a href="Autococimiento.html">Autoconocimiento</a>
+		<a href="redes.html">Redes de Apoyo</a>
+		<a href="presiones.html">Influencias o Presiones</a>
+		</div>
+	</div>
+		
+	<a href="javascript:void(0);" class="icono" onClick="mifuncion()"><i class="fa fa-bars" style="color: #000;"></i></a>
+	</div>
+</div>
+<div class="contenido">
 	<img alt="fondo" class="curvam" src="recursos/Curva roja.svg">
-	<div class="contenido">
+	
 		<img class="personaje" src="recursos/Recurso 21@4x.png" alt="armadillo">
 		<h1 class="exp">Una Experiencia</h1>
 		<h1 class="nombre">MÁS ALLÁ DE TI</h1>
@@ -43,7 +62,7 @@
 
 		<img class="textura" src="recursos/Recurso 23@4x.png" alt="">
 
-	</div>
+	<div>
 	<img alt="fondo2" class="curv" src="recursos/Curva amarilla 2.svg">
 	
 		<img class="textura2" src="recursos/Recurso 23@4x.png" alt="">
@@ -54,5 +73,16 @@
 	<img alt="" src="recursos/Recurso 18@4x.png" class="armad">
 	</div>
 </div>
+	</div>
+	<script>
+	function mifuncion() {
+var x = document.getElementById("mibarrasup");
+if (x.className === "menusup") {
+x.className += " responsive";
+} else {
+x.className = "menusup";
+}
+}
+	</script>
 </body>
 </html>

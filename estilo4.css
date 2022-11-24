@@ -28,3 +28,34 @@ h2{font-size: 16px; font-family: nexa; position: absolute; top: 380px; left: 51%
 
 .arm{width: 22%; position: absolute; top: 100px; right: 17%;}
 .mata{width: 20%; position: absolute; top: 30px; left: 15px;}
+
+@media only screen and (max-width:900px){
+	.contenido{width: 100%;}
+	.sesion{font-size: 9vw;width: 70%; top: 50px;left: 2%}
+	.mata{display: none;}
+	.arm{ width: 33%; left: 60%;}
+	.uno{left: 10%;width: 150px;}
+	.dos{left: 50%;width: 150px;}
+	.tres{left: 30%;width: 150px;}
+	.cuatro{left: 10%;width: 150px;}
+	.cinco{left: 50%;width: 150px;}
+	.cont{left: 32%;}
+	h2{left: 38%;}
+	.tx{left: 19%;}
+}
+
+@media only screen and (max-width:600px){
+	.contenido{width: 100%;}
+	.sesion{font-size: 9vw;width: 90%; top: 250px;left: 2%}
+	.mata{display: none;}
+	.arm{top: 10px; width: 35%; left: 30%;}
+	.uno{left: 10%;width: 150px;}
+	.dos{left: 50%;width: 150px;}
+	.tres{left: 30%;width: 150px;}
+	.cuatro{left: 10%;width: 150px;}
+	.cinco{left: 50%;width: 150px;}
+	.cont{left: 32%;}
+	h2{left: 34%;}
+	.tx{left: 19%;}
+}
+

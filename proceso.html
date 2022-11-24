@@ -35,6 +35,25 @@
 	</div>
 	</div>
 	
+	<div class="menusup" id="mibarrasup">
+		<a href="index.html">Inicio</a>
+	<a href="sobretatu.html" class="activo">Sobre Tatú</a>
+	<a href="tatuland.html">Tatuland</a>
+		<a href="#">Ajustes</a>
+	<a href="avatar.html">Avatar</a>
+		
+	<div class="subna">
+		<a class="subnavbnt" href="proceso.html"><button class="subnavbnt">Mi proceso<i class="fa fa-caret-down"></i></button></a>
+	<div class="inform">
+		<a href="Autococimiento.html">Autoconocimiento</a>
+		<a href="redes.html">Redes de Apoyo</a>
+		<a href="presiones.html">Influencias o Presiones</a>
+		</div>
+	</div>
+		
+	<a href="javascript:void(0);" class="icono" onClick="mifuncion()"><i class="fa fa-bars" style="color: #000;"></i></a>
+		</div>
+	</div>
 	<div class="contenido">
 	<img alt="" class="personaje" src="recursos/Recurso 19@4x.png">
 	<h1 class="tatuland">Mi Proceso</h1>
@@ -76,8 +95,25 @@
 		<img class="huellas" alt="" src="recursos/Untitled 3 (1).svg">
 		
 	</div>
-</div>
+
+		<div>
+<script>
+	function mifuncion() {
+var x = document.getElementById("mibarrasup");
+if (x.className === "menusup") {
+x.className += " responsive";
+} else {
+x.className = "menusup";
+}
+}
+
+	</script>
+		</div>
+	
+	
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+	
+	
 </body>
 </html>
